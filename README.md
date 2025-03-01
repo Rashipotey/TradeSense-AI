@@ -47,8 +47,5 @@ streamlit run app.py
 - **ML Models**: GRU, Sentiment Analysis (BERT)  
 - **Deployment**: Streamlit Community Cloud  
 
-## 📌 **Contributing**  
-Feel free to fork the repo, submit PRs, or report issues.  
-
 ## 📄 **License**  
 MIT License  
