@@ -37,12 +37,12 @@ streamlit run app.py
 - **Stocks Page** – Get a detailed view of stock trends, moving averages, and market cap insights.  
 - **Predictions Page** – Visualize trend forecasts, compare model performance, and explore key influencing factors.  
 
-## 🤖 **Tech Stack**  
+## **Tech Stack**  
 - **Frontend**: Streamlit  
 - **Backend**: Python, TensorFlow/Keras  
 - **Data Sources**: Stock APIs, News APIs  
 - **ML Models**: GRU, Sentiment Analysis (BERT)  
 - **Deployment**: Streamlit Community Cloud  
 
-## 📄 **License**  
+## **License**  
 MIT License  
