@@ -43,6 +43,3 @@ streamlit run app.py
 - **Data Sources**: Stock APIs, News APIs  
 - **ML Models**: GRU, Sentiment Analysis (BERT)  
 - **Deployment**: Streamlit Community Cloud  
-
-## **License**  
-MIT License  
