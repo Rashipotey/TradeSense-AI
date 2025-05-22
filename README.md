@@ -5,7 +5,7 @@ TradeSense AI is an advanced stock market prediction platform that leverages dee
 
 ## **Features**  
 ✅ **Buy/Hold/Sell Recommendations** – AI-driven decision-making based on real-time and historical data.  
-✅ **Sentiment Analysis** – Extracts insights from news and social media to assess market sentiment.  
+✅ **Sentimental Analysis** – Extracts insights from news and social media to assess market sentiment.  
 ✅ **Technical Indicators** – Incorporates SMA, EMA, RSI, Bollinger Bands, MACD, and volume analysis.  
 ✅ **Trend Forecasting** – Predicts stock movements using GRU-based deep learning models.  
 ✅ **Performance Metrics** – Evaluates model accuracy with MAE, RMSE, and feature importance breakdown.  
