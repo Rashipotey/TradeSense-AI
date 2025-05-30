@@ -9,6 +9,10 @@ import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 import requests
 
+
+os.environ["PYTHONWATCHER_IGNORE_MODULES"] = "torch"
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
+
 st.set_page_config(
     page_title="TradeSense AI",
     page_icon='assets/logo.png' if os.path.exists('assets/logo.png') else None,
