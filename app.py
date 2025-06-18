@@ -59,7 +59,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 def get_current_day_news(stock_name):
-    api_key = "d105f7cab2a3d850a7441a1ded2973e2"
+    api_key = "ebbfdb3571835060514db9497443b4f3"
     yesterday_date = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
     base_url = "http://api.mediastack.com/v1/news"
     params = {
