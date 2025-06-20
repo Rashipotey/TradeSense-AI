@@ -58,7 +58,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-def get_current_day_news_gnews(stock_name):
+def get_current_day_news(stock_name):
     api_key = "d790f7b33c8aeffd5541026f84aa1be6"  
     base_url = "https://gnews.io/api/v4/search"
 
