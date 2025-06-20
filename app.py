@@ -58,14 +58,19 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-def get_current_day_news(stock_name):
-    api_key = "ebbfdb3571835060514db9497443b4f3"
-    base_url = "http://api.mediastack.com/v1/news"
+def get_current_day_news_gnews(stock_name):
+    api_key = "d790f7b33c8aeffd5541026f84aa1be6"  
+    base_url = "https://gnews.io/api/v4/search"
+
+    today = datetime.now().date().isoformat()
+
     params = {
-        "access_key": api_key,
-        "keywords": stock_name,
-        "languages": "en",
-        "limit": 5  
+        "q": stock_name,
+        "lang": "en",
+        "max": 4,  
+        "from": today,
+        "to": today,
+        "token": api_key
     }
 
     try:
@@ -73,14 +78,13 @@ def get_current_day_news(stock_name):
         response.raise_for_status()
         data = response.json()
 
-        if 'data' in data:
-            return data['data']  
+        if 'articles' in data:
+            return data['articles']
         else:
             return []
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching news: {e}")
+        print(f"Error fetching news from GNews: {e}")
         return []
-
 
 @st.cache_data
 def load_data(stock_name):
