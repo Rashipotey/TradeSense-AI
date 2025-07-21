@@ -41,5 +41,5 @@ streamlit run app.py
 - **Frontend**: Streamlit  
 - **Backend**: Python, TensorFlow/Keras  
 - **Data Sources**: Stock APIs, News APIs  
-- **ML Models**: GRU, Sentiment Analysis (BERT)  
+- **ML Models**: GRU, Sentiment Analysis (DistilBERT)  
 - **Deployment**: Streamlit Community Cloud  
