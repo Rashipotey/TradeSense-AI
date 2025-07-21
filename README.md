@@ -1,5 +1,5 @@
 # **TradeSense AI**  
-### **AI-Powered Stock Market Analysis and Prediction**  
+### **AI-Powered Stock Market Analysis and Prediction System**  
 
 TradeSense AI is an advanced stock market prediction platform that leverages deep learning, financial indicators, and sentiment analysis to provide actionable investment insights.  
 
